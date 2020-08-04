@@ -1,0 +1,598 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+.center {
+    text-align: center;
+    
+}
+/*----------- history -------------*/
+#history {
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+.hstripes {
+    margin-top: -17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-left: 5px;
+    margin-left: -8px;
+}
+
+.box2{
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 70%;
+}
+
+@media screen and (min-width: 1030px) {
+    .quarter4{
+        width: 30.99999%;
+        height: 30%;
+        margin-left: 10px;
+        padding-left: 8px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 1029px) {
+    .quarter4{
+        width: 47.99999%;
+        height: 30%;
+        margin-left: 10px;
+        padding-left: 8px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 675px) { 
+    .quarter4{
+        width: 100%;
+        height: 30%;
+    }
+}
+
+/*---------------------------------*/
+
+div[id^="map"] {
+   border: 2px solid red; 
+        height: 400px;
+        width: 100%;
+       }
+
+.float {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.orange{
+    color: white;
+    background-color: orange;
+}
+
+.alert {
+    color: red;
+}
+
+#jj {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+   
+}
+
+
+.rajaabtn {
+    background-color: #ffa50082;
+    border-color: #ffd17d;
+    color: black;
+    width: 72px;
+    height: 30px;
+    font-size: 18px;
+}
+.button {
+    background-color: royalblue;
+    color: white;
+    float: right;
+    margin-right: 12px;
+    width: 107px;
+    z-index: 1000;
+   
+}
+
+.mm:hover {
+    border: 2px solid orange;
+}
+
+.front {
+    border-collapse: collapse;
+    z-index: -1; position:relative;
+}
+
+.flexj {
+    display: flex;
+    flex-wrap: wrap;
+}
+.quarter2 {
+    float:left;
+    width:100%;
+    padding: 0 8px;
+    height:300px;
+    min-height: 54px;
+ 
+}
+
+.quarter3 {
+    float:left;
+    width:100%;
+    padding: 0 8px;
+    height:300px;
+    min-height: 54px;
+ 
+}
+
+.quarter1 {
+    float:left;
+    width:100%;
+    padding: 0 8px;
+    height:300px;
+}
+
+.kborder{
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+.box {
+    width: 100%;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    max-height: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: orange;
+    min-height: 54px;
+    max-width: 92%;
+    min-width: 99%;
+    margin-left: 4px;
+    text-align: center;
+    
+    
+}
+.margin{
+    padding-bottom:20px;
+   padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    min-height: 54px;
+}
+
+.image{
+    margin-top: 14px;
+}
+
+.kylpy2{
+    width: 20%;
+    border: 1xp solid black;
+    box-shadow: 5xp 5xp 5xp grey;
+    padding-bottom:20px;
+   padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+
+.search {
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    border: 1px solid orange;
+    float: right;
+    margin-right: 35px;
+}
+.shadow {
+    border: 1xp solid black;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.search input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 2px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+#bigger {
+    font-size: 20px;
+}
+#green {
+    color: green;
+}
+
+#button{
+    float: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.abutton {
+    float: right;
+    margin-right: 45px;
+    background: orange;
+    color: white;
+    z-index: 1000;
+}
+
+.morepadding{
+        float: right;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        min-width: 193px;
+        max-width: 193px;
+}
+
+.gold {
+    color: gold;
+     font-size: 26px;
+    margin-bottom: -9px;
+    margin-top: -3px;
+
+}
+//*.morepadding2{
+    float: right;
+    max-width: 213px;
+    max-height: 191px;
+    min-height: 191px;
+}*/
+.happy {
+    border-radius: 50%;
+    height: 119px;
+    width: 131px;
+    margin-top: -20px;
+}
+
+.rating{
+    font-size: 26px;
+}
+
+.stars {
+    display: inline;
+    font-size: 26px;
+}
+
+.starcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    z-index: -10;
+}
+
+.w3-bar-block .w3-bar-item {padding:20px;}
+
+
+
+.checked {
+    color: orange;
+}
+
+.selected {
+    color: orange;
+}
+
+.checkbox-round {
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.checkbox-round:checked {
+    background-color: orange;
+    border: 1px solid orange;
+}
+
+@media screen and (min-width: 870px) { .quarter2{
+    width:24.99999%;
+    height:24.99999%;
+    }.image {
+        width:24.99999%;
+        height:34.99999%;
+        margin-top: 58px;
+    }.quarter3{
+        width: 32%;
+        height: 223px;
+        margin-left:10px;
+    } .img {
+            max-height: 208px;
+            min-height: 208px;
+    }  h3{
+        max-height: 100px;
+        min-height: 100px;
+    }     
+}
+@media screen and (max-width: 869px) { .quarter2{
+    width:33.33333%;
+    min-height: 33.33333%;
+   
+    }.image {
+        width: 33.99999%;
+        height: 43.99999%;
+        margin-top: 55px;
+    }.quarter3{
+        width: 46%;
+        height: 239px;
+        margin-left: 3%;    
+    }
+    .img{
+        
+    }
+    }
+
+@media screen and (max-width: 675px) { .quarter2 {
+   margin-left: 10%;
+    width:85%;
+    height: 70%;
+    }.quarter3 {
+        width: 100%;
+    }
+    
+    #kylpy{
+        width: 100%;
+    } 
+    .kborder{
+        margin-left: 0;
+        width: 100%;
+        float: left;
+        
+    } .morepadding{
+        float: right;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        min-width: 193px;
+        max-width: 193px;
+    } .image {
+        width:119px;
+        height: 120px;
+        margin-bottom: 20px;
+    } h3{
+        font-size: 30px;
+        color: orange;
+    }
+}
+#right {
+    float: right;
+}
+
+.modalF {
+    float: right;
+    margin-top: -23px;
+    margin-right: 3%;
+}
+
+.kesto {
+    float: right;
+    width: 60px;
+    margin-top: -28px;
+    margin-right: 0%;
+}
+
+#kylpy {
+    border: 2px solid orange;
+    width: 100%;
+    margin: auto;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalp {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-contentp {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closep {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closep:hover,
+.closep:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* ----- Budjet related ----- */
+.color1 {
+	background-color: #54AD85;
+}
+.color2 {
+	background-color: #F26554;
+}
+.color3 {
+	background-color: #FFDA45;
+}
+.container {
+	width: 100%;
+	margin-bottom: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.txt-box {
+	width: 49%;
+	float: left;
+	text-align: center;
+	padding: .55em;
+	margin: 5px 10px;
+}
+
+.txt-boxj {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: .55em;
+	margin: 0 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* ------ Budjet chart ------ */
+
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}
+.atleft {
+	float: left;
+	margin-left: 40px;
+    clear: left;
+}
+.atright {
+	float: right;
+	margin-right: 80px;
+    clear: right;
+}
+
+/* ------- LOGIN RELATED ------ */
+#mikko2 form {
+   background-color: #99aab9;
+     filter: 10%;
+    border: 2px orange;
+    padding-top : 30px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#logo{
+    width: 74%;
+    height: 244px;
+    background-color: #fea000;
+    margin-right: 9%;
+    margin-left: 15%;
+}
+
+
+#mikko1 input[type=submit] {
+    background-color: #f7f4f44d;
+    color: black;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#mikko input[type=submit]:hover {
+    background-color: #fa9e39;
+}
+
+h1 {
+    text-align: center;
+    background-color: #fc9f28;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fefeff;
+    margin-bottom: 0px;
+    margin-top: 4px;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 1em; /* Height of footer */
+  min-height: 100%;
+}
+
+#error{
+    width: 100%;
+    color:red;
+    text-align: center;
+}
+
+/* --------- /LOGIN RELATED -------- */
+
+#wrap {
+   min-height:100%;
+   position:relative;
+}
+
+footer {
+    background-color: #bbbbbb;
+    bottom:0;
+    width: 100%;
+    clear: both;
+}
